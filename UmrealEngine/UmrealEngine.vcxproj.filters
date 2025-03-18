@@ -96,6 +96,42 @@
     <ClInclude Include="Source\Engine\Utility\utfHelper.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="Source\Engine\Imgui\crude_json.h">
+      <Filter>헤더 파일\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Imgui\GraphEditor.h">
+      <Filter>헤더 파일\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Imgui\ImCurveEdit.h">
+      <Filter>헤더 파일\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Imgui\ImGradient.h">
+      <Filter>헤더 파일\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Imgui\imgui_bezier_math.h">
+      <Filter>헤더 파일\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Imgui\imgui_canvas.h">
+      <Filter>헤더 파일\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Imgui\imgui_extra_math.h">
+      <Filter>헤더 파일\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Imgui\imgui_node_editor.h">
+      <Filter>헤더 파일\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Imgui\imgui_node_editor_internal.h">
+      <Filter>헤더 파일\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Imgui\ImGuizmo.h">
+      <Filter>헤더 파일\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Imgui\ImSequencer.h">
+      <Filter>헤더 파일\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Imgui\ImZoomSlider.h">
+      <Filter>헤더 파일\imgui</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\pch.cpp">
@@ -161,8 +197,44 @@
     <ClCompile Include="Source\Engine\Utility\utfHelper.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Source\Engine\Imgui\GraphEditor.cpp">
+      <Filter>소스 파일\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Imgui\ImCurveEdit.cpp">
+      <Filter>소스 파일\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Imgui\ImGradient.cpp">
+      <Filter>소스 파일\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Imgui\imgui_canvas.cpp">
+      <Filter>소스 파일\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Imgui\imgui_node_editor.cpp">
+      <Filter>소스 파일\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Imgui\imgui_node_editor_api.cpp">
+      <Filter>소스 파일\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Imgui\ImGuizmo.cpp">
+      <Filter>소스 파일\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Imgui\ImSequencer.cpp">
+      <Filter>소스 파일\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Imgui\crude_json.cpp">
+      <Filter>소스 파일\imgui</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="cpp.hint" />
+    <None Include="Source\Engine\Imgui\imgui_bezier_math.inl">
+      <Filter>소스 파일\imgui</Filter>
+    </None>
+    <None Include="Source\Engine\Imgui\imgui_extra_math.inl">
+      <Filter>소스 파일\imgui</Filter>
+    </None>
+    <None Include="Source\Engine\Imgui\imgui_node_editor_internal.inl">
+      <Filter>소스 파일\imgui</Filter>
+    </None>
   </ItemGroup>
 </Project>
